@@ -1,0 +1,18 @@
+.notification {
+    font-size: 16px;
+    border: 1px ridge;
+    padding: 6px;
+    display: inline-block;
+}
+
+.success {
+    color: rgb(0, 177, 0);
+}
+
+.error {
+    color: rgb(224, 56, 56);
+}
+
+.empty {
+    height: 25px
+}

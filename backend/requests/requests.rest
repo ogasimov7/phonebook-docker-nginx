@@ -1,0 +1,35 @@
+### Delete a person
+
+DELETE http://localhost:3000/api/persons/61e9786a2e499efbce60b422
+
+### Add a new person
+
+POST http://localhost:3000/api/persons
+content-type: application/json
+
+{
+    "name": "rest",
+    "number": "12345678"
+}
+
+### Get one person
+
+GET http://localhost:3000/api/persons/61e971c71cff12e116f82c4f
+
+### Get all people
+
+GET http://localhost:3000/api/persons
+
+### Update a person
+
+PUT http://localhost:3000/api/persons/61e9786a2e499efbce60b422
+content-type: application/json
+
+{
+    "name": "blabla",
+    "number": "123/456/78"
+}
+
+### Get info
+
+GET http://localhost:3000/info
